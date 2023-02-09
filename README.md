@@ -16,6 +16,15 @@ Single URL:
 echo "https://www.hackerone.com" | python3 brokenlinkfinder.py
 ```
 
+Output
+```
+URL: https://www.hackerone.com
+https://www.facebook.com/Hacker0x01
+https://www.twitter.com/Hacker0x01
+https://www.linkedin.com/company/hackerone
+https://www.instagram.com/hacker0x01
+```
+
 Multiple URLs:
 ```
 cat alive-subs.txt | python3 brokenlinkfinder.py
